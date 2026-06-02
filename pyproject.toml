@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reminder-manager"
+version = "1.0.0"
+description = "Gerenciador de lembretes com notificações nativas e interface gráfica"
+requires-python = ">=3.10"
+dependencies = [
+    "customtkinter>=5.2.2",
+    "pystray>=0.19.5",
+    "Pillow>=10.0.0",
+]
+
+[project.scripts]
+lembretes = "gui:run"
+
+[tool.setuptools.packages.find]
+include = ["core*"]
+
+[tool.setuptools]
+py-modules = ["gui"]
