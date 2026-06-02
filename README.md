@@ -18,6 +18,7 @@ A cross-platform reminder manager with a modern GUI, native notifications, and s
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Platform](https://img.shields.io/badge/platform-linux%20|%20windows%20|%20macos-lightgrey)
+![Tests](https://github.com/ad2486/reminder-manager/actions/workflows/tests.yml/badge.svg)
 
 ## Features
 
